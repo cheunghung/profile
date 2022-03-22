@@ -56,17 +56,18 @@ hr {
 
 /* Main Page */
 
-.top-cloud{
-  position:absolute;
-  right: 300px;
-  top: 50px;
-}
-
 .top-container{
   background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
 }
+
+.top-cloud{
+  position:absolute;
+  right: 24%;
+  top: 7%;
+}
+
 
 .pro{
   text-decoration: underline;
@@ -77,10 +78,15 @@ hr {
   margin:2%;
 }
 
+.mountain{
+  width:30rem;
+  height:21.875rem;
+}
+
 .bottom-cloud{
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
+  position:absolute;
+  left: 24%;
+  bottom: 43%;
 }
 
 
@@ -183,7 +189,7 @@ hr {
   border-radius: 8px;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 100%;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   margin-top: 20px;
