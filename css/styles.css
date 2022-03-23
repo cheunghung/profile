@@ -218,21 +218,21 @@ hr {
 }
 
 
-/* Viewport < width 600px */
+/* Viewport < width 1000px */
 
 
-@media (max-width:600px) {
+@media (max-width:1000px) {
 
   body{
     font-size: 2rem;
   }
 
   h1{
-    font-size: 10rem;
+    font-size: 8rem;
   }
 
   h2{
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   h3{
@@ -253,19 +253,19 @@ hr {
   position:absolute;
   right: 5%;
   top: 7%;
-  width:20%;
+  width:15%;
 }
 
 .mountain{
-  width:100%;
+  width:60%;
 }
 
 
 .bottom-cloud{
   position:absolute;
-  left: 10%;
-  bottom: 25%;
-  width:20%;
+  left: 12%;
+  bottom: 35%;
+  width:15%;
 }
 
 .font-awe{
@@ -274,7 +274,7 @@ hr {
 
 
 .profile-pic {
-  width:100%;
+  width:40%;
 }
 
 .heart{
@@ -283,21 +283,21 @@ hr {
 
 
 .coding-pic{
-  width: 75%;
+  width: 40%;
 }
 
 
 .report-pic{
-  width: 75%;
+  width: 40%;
 }
 
 .ice-hockey-pic{
-  width: 75%;
+  width: 40%;
 }
 
 
 .hiking-pic{
-  width: 75%;
+  width: 40%;
 }
 
 .beer{
