@@ -208,17 +208,26 @@ hr {
   background-color: #66BFBF;
 }
 
+
+.view{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-top: 100px;
+}
+
+
 .p-foot{
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   padding:10px;
   margin-bottom: 0;
-  margin-top: 100px;
 }
 
 
-/* Viewport < width 1000px */
+/* Viewport < width 1000px settings */
 
 
 @media (max-width:1000px) {
@@ -243,11 +252,9 @@ hr {
   font-size: 3rem;
   }
 
-
-.p-foot{
-  font-size: 1.5rem;
-}
-
+  hr{
+    width:12%;
+  }
 
 .top-cloud{
   position:absolute;
@@ -259,7 +266,6 @@ hr {
 .mountain{
   width:60%;
 }
-
 
 .bottom-cloud{
   position:absolute;
@@ -304,8 +310,14 @@ hr {
   font-size: 5rem;
 }
 
-hr{
-  width:12%;
+
+.view{
+  font-size: 1.5rem;
+}
+
+
+.p-foot{
+  font-size: 1.5rem;
 }
 
 
