@@ -256,6 +256,15 @@ hr {
     width:12%;
   }
 
+.coding-pic{
+  width:10%;
+}
+
+.report-pic{
+  width:50%;
+}
+
+
 .top-cloud{
   position:absolute;
   right: 5%;
@@ -282,6 +291,7 @@ hr {
 .profile-pic {
   width:40%;
 }
+
 
 .heart{
   font-size: 2rem;
@@ -319,6 +329,100 @@ hr {
 .p-foot{
   font-size: 1.5rem;
 }
+
+
+}
+
+
+
+/* Viewport > width 3000px settings */
+
+
+@media (min-width:3000px) {
+
+  body{
+    font-size: 4rem;
+  }
+
+  h1{
+    font-size: 16rem;
+  }
+
+  h2{
+    font-size: 8rem;
+  }
+
+  h3{
+    font-size: 6rem;
+  }
+
+  h4{
+  font-size: 5rem;
+  }
+
+  hr{
+    width:12%;
+  }
+
+.top-cloud{
+  position:absolute;
+  right: 15%;
+  top: 7%;
+  width:15%;
+}
+
+.mountain{
+  width:60%;
+}
+
+.bottom-cloud{
+  position:absolute;
+  left: 20%;
+  bottom: 55%;
+  width:15%;
+}
+
+.font-awe{
+  font-size: 50px;
+}
+
+
+.profile-pic {
+  width:30%;
+}
+
+.pro-h2{
+  font-size: 4rem;
+}
+
+.heart{
+  font-size: 4rem;
+}
+
+
+.ice-hockey-pic{
+  width: 40%;
+}
+
+
+.hiking-pic{
+  width: 40%;
+}
+
+.beer{
+  font-size: 10rem;
+}
+
+
+.view{
+  font-size: 3rem;
+}
+
+
+.p-foot{
+  font-size: 3rem;
+}
+
 
 
 }
