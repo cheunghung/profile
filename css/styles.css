@@ -51,7 +51,9 @@ hr {
 .navbar-text:hover {
   color: #66BFBF;
   text-decoration: underline;
+  background-color: #EEEEEE;
 }
+
 
 
 /* Main Page */
