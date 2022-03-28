@@ -1,9 +1,10 @@
 // Finding no. of drum buttons
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
-// Adding event listner to each button (for mouse click)
+// Adding event listners to each button
 for (var i = 0; i < numberOfDrumButtons; i++) {
 
+// event listner to detect mouse click
   document.querySelectorAll(".drum")[i].addEventListener("click", function() {
     var buttonInnerHTML = this.innerHTML;
     makeSound(buttonInnerHTML);
@@ -13,10 +14,10 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
 
 }
 
-// Adding event listner to each button (for keyboard)
-document.addEventListener("keypress", function(event) {
-  makeSound(event.key);
-  buttonAnimation(event.key);
+// event listner to detect key pressed
+  document.addEventListener("keypress", function(event) {
+    makeSound(event.key);
+    buttonAnimation(event.key);
 
 });
 
@@ -65,7 +66,7 @@ function makeSound(key) {
   }
 }
 
-// Animate buttons
+// Animate button
 function buttonAnimation(currentKey) {
 
   var activeButton = document.querySelector("." + currentKey);
