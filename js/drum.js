@@ -1,3 +1,4 @@
+
 // Finding no. of drum buttons
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
@@ -69,8 +70,13 @@ function makeSound(key) {
 // Animate button
 function buttonAnimation(currentKey) {
 
+  // locate button
   var activeButton = document.querySelector("." + currentKey);
+
+  // Add class to style when clicked/ pressed
   activeButton.classList.add("pressed");
+
+  // Remove class after timeout
   setTimeout(function() {
     activeButton.classList.remove("pressed");
   }, 100);
