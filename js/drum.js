@@ -1,28 +1,26 @@
+// Finding no. of drum buttons
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
+// Adding event listner to each button
 for (var i = 0; i < numberOfDrumButtons; i++) {
 
   document.querySelectorAll(".drum")[i].addEventListener("click", function() {
-
     var buttonInnerHTML = this.innerHTML;
-
     makeSound(buttonInnerHTML);
-
     buttonAnimation(buttonInnerHTML);
 
   });
 
 }
 
+// Adding event listner to each button after user press keyboard
 document.addEventListener("keypress", function(event) {
-
   makeSound(event.key);
-
   buttonAnimation(event.key);
 
 });
 
-
+// Function to make sound
 function makeSound(key) {
 
   switch (key) {
@@ -67,13 +65,11 @@ function makeSound(key) {
   }
 }
 
-
+// Animate buttons
 function buttonAnimation(currentKey) {
 
   var activeButton = document.querySelector("." + currentKey);
-
   activeButton.classList.add("pressed");
-
   setTimeout(function() {
     activeButton.classList.remove("pressed");
   }, 100);
