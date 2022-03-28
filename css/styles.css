@@ -53,6 +53,10 @@ hr {
   text-decoration: underline;
 }
 
+.dropdown-item{
+  text-align: center;
+}
+
 
 
 /* Main Page */
