@@ -4,7 +4,8 @@ document.querySelector("h1").classList.add("invisible");
 
 // User rolls dice
 document.querySelector("p.instruc").addEventListener("click", function () {
-
+  
+  // Dice sound effects
   var roll = new Audio('sounds/dice-roll.mp3');
   roll.play();
 
