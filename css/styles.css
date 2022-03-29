@@ -48,6 +48,10 @@ hr {
 
 /* Navbar */
 
+.navbar{
+  padding: 0;
+}
+
 .navbar-text:hover {
   color: #66BFBF;
   text-decoration: underline;
