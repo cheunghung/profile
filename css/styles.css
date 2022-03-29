@@ -64,12 +64,13 @@ hr {
 .top-container{
   background-color: #E4F9F5;
   position: relative;
-  padding-top: 100px;
+  padding-top: 0;
+  display: inline-block;
 }
 
 .top-cloud{
   position:absolute;
-  right: 24%;
+  right: 18%;
   top: 7%;
 }
 
@@ -86,7 +87,7 @@ hr {
 
 .bottom-cloud{
   position:absolute;
-  left: 24%;
+  left: 20%;
   bottom: 43%;
 }
 
@@ -284,7 +285,7 @@ hr {
 .bottom-cloud{
   position:absolute;
   left: 12%;
-  bottom: 28%;
+  bottom: 25%;
   width:15%;
 }
 
@@ -386,6 +387,8 @@ hr {
   bottom: 55%;
   width:15%;
 }
+
+
 
 .font-awe{
   font-size: 50px;
