@@ -78,6 +78,9 @@ hr {
   top: 7%;
 }
 
+.fading{
+  opacity: 0.7;
+}
 
 .pro{
   text-decoration: underline;
