@@ -1,8 +1,14 @@
 // fading clouds
-fading = setInterval(setFading, 1000);
+topCloud = setInterval(topFading, 1000);
 
-function setFading() {
+function topFading() {
   document.querySelector(".top-cloud").classList.toggle("fading");
+}
+
+
+bottomCloud = setInterval(bottomFading, 1500);
+
+function bottomFading() {
   document.querySelector(".bottom-cloud").classList.toggle("fading");
 }
 
