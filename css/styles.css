@@ -6,7 +6,7 @@ body{
 
 h1{
   color: #66BFBF;
-  font-size: 5.625rem;
+  font-size: 7rem;
   margin: 0 auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
@@ -88,7 +88,7 @@ hr {
 
 .top-cloud{
   position:absolute;
-  right: 18%;
+  right: 13%;
   top: 7%;
 }
 
@@ -108,8 +108,8 @@ hr {
 
 .bottom-cloud{
   position:absolute;
-  left: 20%;
-  bottom: 43%;
+  left: 15%;
+  bottom: 48%;
 }
 
 
@@ -254,17 +254,17 @@ hr {
 }
 
 
-/* Viewport < width 1000px settings */
+/* Viewport < width 800px settings */
 
 
-@media (max-width:1000px) {
+@media (max-width:800px) {
 
   body{
     font-size: 2rem;
   }
 
   h1{
-    font-size: 6rem;
+    font-size: 8rem;
     padding-top: 100px;
   }
 
@@ -294,7 +294,7 @@ hr {
 
 
 .snowflake {
-  margin-left: -50%;
+  margin-left: -110%;
   margin-top:-150%;
 }
 
@@ -399,8 +399,17 @@ hr {
 
 
 .snowflake {
-  margin-left: -100%;
-  margin-top:-10%;
+  position: absolute;
+  background-color: #CCC;
+  user-select: none;
+  z-index: 1000;
+  pointer-events: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background: grey;
+  margin-left: -90%;
+  margin-top:-25%;
 }
 
 .top-cloud{
