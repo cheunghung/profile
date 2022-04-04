@@ -67,8 +67,6 @@ hr {
 
 .snowflake {
   position: absolute;
-  left:-100px;
-  top:-350px;
   background-color: #CCC;
   user-select: none;
   z-index: 1000;
@@ -77,6 +75,8 @@ hr {
   width: 10px;
   height: 10px;
   background: grey;
+  margin-left: -90%;
+  margin-top:-50%;
   }
 
 .top-container{
@@ -264,7 +264,8 @@ hr {
   }
 
   h1{
-    font-size: 8rem;
+    font-size: 6rem;
+    padding-top: 100px;
   }
 
   h2{
@@ -292,6 +293,11 @@ hr {
 }
 
 
+.snowflake {
+  margin-left: -50%;
+  margin-top:-150%;
+}
+
 .top-cloud{
   position:absolute;
   right: 5%;
@@ -305,8 +311,8 @@ hr {
 
 .bottom-cloud{
   position:absolute;
-  left: 12%;
-  bottom: 23%;
+  left: 8%;
+  bottom: 15%;
   width:15%;
 }
 
@@ -390,6 +396,12 @@ hr {
   hr{
     width:12%;
   }
+
+
+.snowflake {
+  margin-left: -100%;
+  margin-top:-10%;
+}
 
 .top-cloud{
   position:absolute;
