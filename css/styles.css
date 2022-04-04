@@ -7,7 +7,7 @@ body{
 h1{
   color: #66BFBF;
   font-size: 5.625rem;
-  margin: 50px auto 0 auto;
+  margin: 0 auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
 
@@ -65,6 +65,20 @@ hr {
 
 /* Main Page */
 
+.snowflake {
+  position: absolute;
+  left:-100px;
+  top:-350px;
+  background-color: #CCC;
+  user-select: none;
+  z-index: 1000;
+  pointer-events: none;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: grey;
+  }
+
 .top-container{
   background-color: #E4F9F5;
   position: relative;
@@ -79,7 +93,7 @@ hr {
 }
 
 .fading{
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .pro{
