@@ -1,4 +1,3 @@
-
 body{
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -252,6 +251,33 @@ hr {
   padding:10px;
   margin-bottom: 0;
 }
+
+
+/* scrolling effects */
+
+.slide-in {
+  opacity: 0;
+  transition: all 2s;
+}
+
+.align-left.slide-in {
+  transform: translateX(-30%) scale(0.95);
+}
+
+.align-right.slide-in {
+  transform: translateX(30%) scale(0.95);
+}
+
+.align-center.slide-in {
+  transform: translateY(30%) scale(0.95);
+}
+
+.slide-in.active {
+  opacity: 1;
+  transform: translateX(0%) scale(1);
+}
+
+
 
 
 /* Viewport < width 800px settings */
