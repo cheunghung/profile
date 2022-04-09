@@ -8,19 +8,19 @@
 
   <!-- CSS Stylesheets -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/chatbot.css">
   <link rel="stylesheet" href="css/styles.css">
 
-  <!-- Chatbot styling -->
-  <style>
-              df-messenger {
-              --df-messenger-bot-message: #E4F9F5;
-              --df-messenger-button-titlebar-color: #66BFBF;
-              --df-messenger-chat-background-color: #fafafa;
-              --df-messenger-font-color: black;
-              --df-messenger-send-icon: #66BFBF;
-              --df-messenger-user-message: #66BFBF;
-              }
-  </style>
+<style>
+df-messenger {
+  --df-messenger-bot-message: #E4F9F5;
+  --df-messenger-button-titlebar-color: #66BFBF;
+  --df-messenger-chat-background-color: #fafafa;
+  --df-messenger-font-color: black;
+  --df-messenger-send-icon: #66BFBF;
+  --df-messenger-user-message: #66BFBF;
+}
+</style>
 
 
   <!-- Favicon -->
@@ -193,7 +193,8 @@
 <script src="js/index.js" charset="utf-8"></script>
 <script src="js/snow.js" charset="utf-8"></script>
 <script src="js/scroll.js" charset="utf-8"></script>
-  
+<script src="js/chatbot.js" charset="utf-8"></script>
+
 
 
 <df-messenger
@@ -201,7 +202,7 @@
   chat-title="KYC Consultant"
   agent-id="4e993efe-8b44-4df2-8a34-ac9642f209ca"
   language-code="en"
-  expand="False"
+  expand=false
 ></df-messenger>
 
 <meta name="viewport" content="width-device-width, initial-scale=1">
