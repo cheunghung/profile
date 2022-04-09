@@ -1,3 +1,7 @@
-.message{
+#messageList .message.bot-message{
   text-align: left;
+}
+
+#messageList .message.user-message{
+  text-align: right;
 }
