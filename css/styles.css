@@ -1,5 +1,5 @@
 body{
-  text-align: center;
+  text-align: left;
   font-family: 'Merriweather', serif;
 }
 
@@ -8,6 +8,7 @@ h1{
   font-size: 7rem;
   margin: 0 auto 0 auto;
   font-family: 'Sacramento', cursive;
+  text-align: center;
 }
 
 h2{
@@ -16,6 +17,7 @@ h2{
   font-size: 2.5rem;
   font-weight: normal;
   margin: 50px auto 0 auto;
+  text-align: center;
 }
 
 h3{
@@ -83,6 +85,7 @@ hr {
   position: relative;
   padding-top: 0;
   display: inline-block;
+  text-align: center;
 }
 
 .top-cloud{
@@ -90,6 +93,7 @@ hr {
   right: 13%;
   top: 7%;
 }
+
 
 .fading{
   opacity: 0.5;
@@ -114,6 +118,10 @@ hr {
 
 /* About Me Section */
 
+.middle-container{
+  text-align: center;
+}
+
 .profile{
   width: 75%;
   margin: 50px auto 50px auto;
@@ -127,7 +135,6 @@ hr {
   padding-top: 20px;
   padding-bottom: 10px;
 }
-
 
 .heart{
   color:red;
@@ -173,6 +180,7 @@ hr {
 
 .sports{
   margin-bottom: 0;
+  text-align: center;
 }
 
 
@@ -193,6 +201,11 @@ hr {
   margin:auto;
   width:50%;
   padding-left: 10px;
+  text-align: center;
+}
+
+.closing{
+  text-align: center;
 }
 
 .beer{
@@ -215,6 +228,7 @@ hr {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   margin-top: 20px;
+  text-align: center;
 }
 
 .btn:hover {
@@ -232,6 +246,7 @@ hr {
 
 .bottom-container{
   background-color: #66BFBF;
+  text-align: center;
 }
 
 
@@ -251,6 +266,7 @@ hr {
   padding:10px;
   margin-bottom: 0;
 }
+
 
 
 /* scrolling effects */
