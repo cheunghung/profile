@@ -1,0 +1,48 @@
+
+
+.form{
+  margin:10%;
+}
+
+.logo{
+  width:75%;
+  height: 75%;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #42C2FF;
+  margin-bottom: 5%;
+}
+
+.sympt-input{
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+
+.btn-outline-primary {
+  color: #42C2FF;
+  border-color: #42C2FF;
+  font-weight: 500;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #42C2FF;
+  border-color: #42C2FF;
+}
+
+
+.bottom-container{
+  background-color: #42C2FF;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+.p-foot{
+  color: white;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-top: 100px;
+  padding:2%;
+}
