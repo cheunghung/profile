@@ -1,5 +1,5 @@
 body{
-  text-align: center;
+  text-align: left;
   font-family: 'Merriweather', serif;
 }
 
@@ -517,4 +517,9 @@ hr {
 
 
 
+}
+
+
+.navbar-collapse {
+  text-align: center;
 }
