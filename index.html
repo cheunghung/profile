@@ -14,26 +14,23 @@
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 
 
-  <!-- chatbot styling -->
-  <df-messenger expand="false" intent="WELCOME" chat-icon="https://raw.githubusercontent.com/cheunghung/profile/main/images/robot.ico" chat-title="KYC Consultant" agent-id="4e993efe-8b44-4df2-8a34-ac9642f209ca" language-code="en" wait-open="true">
-  </df-messenger>
+ <!-- chatbot styling -->
+ <df-messenger expand="false" intent="WELCOME" chat-title="KYC Consultant" agent-id="4e993efe-8b44-4df2-8a34-ac9642f209ca" language-code="en" wait-open="true">
+</df-messenger>
 
-  <style>
-    df-messenger {
-      --df-messenger-bot-message: #E4F9F5;
-      --df-messenger-button-titlebar-color: #66BFBF;
-      --df-messenger-chat-background-color: #fafafa;
-      --df-messenger-font-color: black;
-      --df-messenger-send-icon: #66BFBF;
-      --df-messenger-user-message: #66BFBF;
-      /* --df-messenger-chip-color:#66BFBF; */
-      --df-messenger-chip-border-color:#66BFBF;
-    }
-  </style>
+<style>
+  df-messenger {
+    --df-messenger-bot-message: #E4F9F5;
+    --df-messenger-button-titlebar-color: #66BFBF;
+    --df-messenger-chat-background-color: #fafafa;
+    --df-messenger-font-color: black;
+    --df-messenger-send-icon: #66BFBF;
+    --df-messenger-user-message: #66BFBF;
+    /* --df-messenger-chip-color:#66BFBF; */
+    --df-messenger-chip-border-color:#66BFBF;
+  }
+</style>
 
-
-  <!-- Favicon -->
-  <link rel="icon" href="https://raw.githubusercontent.com/cheunghung/profile/main/images/robot.ico">
 
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"></script>
@@ -53,11 +50,10 @@
 
   <!-- Nav Bar -->
 
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #E4F9F5;">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #c1e6e6;">
 
     <div class="container-fluid">
 
-      <a class="navbar-brand" href="#main"><i class="fa-solid fa-cog fa-spin fa-2xl"></i></a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -65,42 +61,42 @@
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav mx-auto">
           <li class="nav-item" aria-current="page">
-            <a class="nav-link" href="#about">
-              <div class="container-fluid"><span class="navbar-text">About Me</span></div>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#hobbies">
-              <div class="container-fluid"><span class="navbar-text">My Hobbies</span></div>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">
-              <div class="container-fluid"><span class="navbar-text">Contact Me</span></div>
-            </a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <div class="container-fluid"><span class="navbar-text">JS Projects </span></div>
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="dice.html" target="_blank">Dice Game</a></li>
-              <li><a class="dropdown-item" href="drum.html" target="_blank">Drum Kit</a></li>
-              <li><a class="dropdown-item" href="simon.html" target="_blank">The Simon Game</a></li>
-              <li><a class="dropdown-item" href="https://cheunghung-weather.netlify.app/" target="_blank">Weather App</a></li>
-              <li><a class="dropdown-item" href="https://cheunghung-tours.netlify.app/" target="_blank">Tours App</a></li>
-              <li><a class="dropdown-item" href="https://cheunghung-natural-winery.netlify.app/" target="_blank">Winery App</a></li>
-              <li><a class="dropdown-item" href="form.html" target="_blank">Symptoms Checker App</a></li>
-              <li><a class="dropdown-item" href="https://cheunghung-simply-cozy-store.netlify.app/" target="_blank">Store App</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://cheunghung-cv.netlify.app/" target="_blank">
-              <div class="container-fluid"><span class="navbar-text">My Resume</span></div>
-            </a>
-          </li>
+                      <a class="nav-link" href="#about">
+                        <div class="container-fluid"><span class="navbar-text">About Me</span></div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#hobbies">
+                        <div class="container-fluid"><span class="navbar-text">My Hobbies</span></div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">
+                        <div class="container-fluid"><span class="navbar-text">Contact Me</span></div>
+                      </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="container-fluid"><span class="navbar-text">JS Projects </span></div>
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="dice.html" target="_blank">Dice Game</a></li>
+                        <li><a class="dropdown-item" href="drum.html" target="_blank">Drum Kit</a></li>
+                        <li><a class="dropdown-item" href="simon.html" target="_blank">The Simon Game</a></li>
+                        <li><a class="dropdown-item" href="https://cheunghung-weather.netlify.app/" target="_blank">Weather App</a></li>
+                        <li><a class="dropdown-item" href="https://cheunghung-tours.netlify.app/" target="_blank">Tours App</a></li>
+                        <li><a class="dropdown-item" href="https://cheunghung-natural-winery.netlify.app/" target="_blank">Winery App</a></li>
+                        <li><a class="dropdown-item" href="form.html" target="_blank">Symptoms Checker App</a></li>
+                        <li><a class="dropdown-item" href="https://cheunghung-simply-cozy-store.netlify.app/" target="_blank">Store App</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://cheunghung-cv.netlify.app/" target="_blank">
+                        <div class="container-fluid"><span class="navbar-text">My Resume</span></div>
+                      </a>
+                    </li>
         </ul>
       </div>
     </div>
@@ -109,12 +105,7 @@
   <!-- Main Page -->
 
   <div class="top-container container-fluid" id="top">
-    <span class="snowflake"></span>
-    <img class="top-cloud" src="images/cloud.png" alt="cloud pic">
-    <h1>I'm Jackie</h1>
-    <h2 class="pro-h2">A <span class="pro">pro</span>fessional KYC specialist, programmer, financial analyst.</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud pic">
-    <img class="mountain" src="images/mountain.png" alt="mountain pic">
+    <img class="car" src="images/car.png" alt="car pic">
   </div>
 
   <br>
@@ -124,10 +115,10 @@
 
   <div class="middle-container">
     <div class="profile">
-      <img class="profile-pic align-center slide-in" src="images/Jackie.png" alt="Jackie's profile pic">
+      <img class="profile-pic align-center" src="images/Jackie.png" alt="Jackie's profile pic">
       <h2>Hello, <span class="greeting"></span></h2>
       <br>
-      <p>I'm a KYC Specialist with 8+ years of experience in account opening. I have worked in various banks and handled KYC onboarding for different business lines such as: corporate & investment banking, wealth management, global markets, and trade
+      <p>I'm a KYC Specialist with 6+ years of experience in account opening. I have worked in various banks and handled KYC onboarding for different business lines such as: corporate & investment banking, wealth management, global markets, and trade
         finance. </p>
       <p>Out of the office, you'll find me pursuing various hobbies such as RPA programming, web development, and financial data analysis. Also, I <span class="heart"><i class="fa-solid fa-heart fa-beat"></i></span> sports such as ice hockey &
         hiking. </p>
@@ -144,9 +135,9 @@
       <h2>My Hobbies.</h2>
       <br>
       <div class="hobby-row">
-        <img class="coding-pic align-left slide-in" src="images/coding.png" alt="coding pic">
+        <img class="coding-pic align-left" src="images/coding.png" alt="coding pic">
         <h3>Programming</h3>
-        <p>After the COVID pandemic started in 2020 in HK, I have spent most of my time working from home. Since I've spent more time at home, I was able to fork out extra time to learn how to code. Therefore I have been coding for 4+ years now.</p>
+        <p>After the COVID pandemic started in 2020 in HK, I have spent most of my time working from home. Since I've spent more time at home, I was able to fork out extra time to learn how to code. Therefore I have been coding for 2+ years now.</p>
 
         <p>I first started to learn VBA & Python programming since their syntax is easier to learn for a novice programmer. Then I learned RPA proramming and was able to automate some mundane & repetitive tasks at work. If you have worked in KYC
           onboarding before, you'll realize that most of the time is spent on tedious tasks like name screening, negative news search, and data input. So knowing RPA is a real game changer. </p>
@@ -155,7 +146,7 @@
       </div>
 
       <div class="hobby-row">
-        <img class="report-pic align-right slide-in" src="images/report.png" alt="report pic">
+        <img class="report-pic align-right" src="images/report.png" alt="report pic">
         <h3>Financial Analysis</h3>
         <p>As a KYC Specialist, being able to analyze financial data is an important skill. For example, when establishing a client's profile, calculating total assets from source of funds & wealth and analyzing a company's financial statements are
           often required in KYC onboarding. </p>
