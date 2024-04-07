@@ -3,9 +3,17 @@ body{
   font-family: 'Merriweather', serif;
 }
 
+.dragon-container{
+  background-image: url("https://github.com/cheunghung/profile/blob/main/images/dragon.gif?raw=true");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
 
 h2{
-  color: #66BFBF;
+  /* color: #66BFBF; */
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
@@ -14,14 +22,14 @@ h2{
 }
 
 h3{
-  color: #11999E;
+  /* color: #11999E; */
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 15px;
   margin: 30px auto 20px auto;
 }
 
 h4{
-  color: #11999E;
+  /* color: #11999E; */
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 5px;
   margin: 30px auto 20px auto;
@@ -45,7 +53,6 @@ hr {
 .navbar {
   padding: 0;
 }
-
 
 
 .navbar-collapse {
@@ -103,6 +110,12 @@ hr {
   width: 75%;
   margin: 0 auto 50px auto;
   line-height: 2;
+  background-color: rgba(223, 223, 223, 0.6);
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 5%;
+  border-width: 1px;
+
 }
 
 .profile-pic {
@@ -113,12 +126,22 @@ hr {
   padding-bottom: 10px;
 }
 
+
 .heart{
   color:red;
 }
 
 
 /* My Hobbies Section */
+
+
+.Hobbies{
+  background-color: rgba(223, 223, 223, 0.6);
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 5%;
+  border-width: 1px;
+}
 
 .hobby-row {
   width: 75%;
@@ -179,6 +202,11 @@ hr {
   width:50%;
   padding-left: 10px;
   text-align: center;
+  background-color: rgba(223, 223, 223, 0.6);
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 5%;
+  border-width: 1px;
 }
 
 .closing{
@@ -205,6 +233,7 @@ hr {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   margin-top: 20px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -244,4 +273,5 @@ hr {
   padding:10px;
   margin-bottom: 0;
 }
+
 
