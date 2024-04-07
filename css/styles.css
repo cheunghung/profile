@@ -13,7 +13,7 @@ body{
 
 
 h2{
-  /* color: #66BFBF; */
+  color: #11999E;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
@@ -22,14 +22,14 @@ h2{
 }
 
 h3{
-  /* color: #11999E; */
+  color: #11999E;
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 15px;
   margin: 30px auto 20px auto;
 }
 
 h4{
-  /* color: #11999E; */
+  color: #11999E;
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 5px;
   margin: 30px auto 20px auto;
@@ -40,7 +40,7 @@ hr {
   background-color: white;
   border-style: none;
   border-top-style: dotted;
-  border-color: dark-grey;
+  border-color: black;
   border-width: 5px;
   margin:70px auto;
   width:5%;
@@ -115,6 +115,7 @@ hr {
   border-style: solid;
   border-radius: 5%;
   border-width: 1px;
+  padding: 0px 15px 0px 15px;
 
 }
 
@@ -122,8 +123,6 @@ hr {
   display: block;
   margin: auto;
   width:25%;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 
@@ -145,7 +144,7 @@ hr {
 
 .hobby-row {
   width: 75%;
-  margin: 50px auto 50px auto;
+  margin: 50px auto;
   text-align: left;
   line-height: 2;
   padding-bottom: 50px;
@@ -187,7 +186,7 @@ hr {
 /* carousel */
 
 .carousel-inner {
-  width: 75%;
+  width:75%;
   margin: 0 auto 50px auto;
   text-align: left;
   line-height: 2;
@@ -273,5 +272,4 @@ hr {
   padding:10px;
   margin-bottom: 0;
 }
-
 
