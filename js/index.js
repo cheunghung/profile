@@ -18,17 +18,3 @@ else {
 
 var year = date.getFullYear()
 document.querySelector(".year").innerHTML = year;
-
-
-// fade in images on page load
-const images = document.getElementsByTagName("img");
-for (let image of images) {
-  image.addEventListener("load", fadeImg);
-  image.style.opacity = "0";
-}
-
-
-function fadeImg () {
-  this.style.transition = "opacity 5s";
-  this.style.opacity = "1";
-}
