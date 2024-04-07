@@ -1,17 +1,3 @@
-// fading clouds
-topCloud = setInterval(topFading, 1000);
-
-function topFading() {
-  document.querySelector(".top-cloud").classList.toggle("fading");
-}
-
-
-bottomCloud = setInterval(bottomFading, 1500);
-
-function bottomFading() {
-  document.querySelector(".bottom-cloud").classList.toggle("fading");
-}
-
 // greeting
 
 var date = new Date();
@@ -32,3 +18,17 @@ else {
 
 var year = date.getFullYear()
 document.querySelector(".year").innerHTML = year;
+
+
+// fade in images on page load
+const images = document.getElementsByTagName("img");
+for (let image of images) {
+  image.addEventListener("load", fadeImg);
+  image.style.opacity = "0";
+}
+
+
+function fadeImg () {
+  this.style.transition = "opacity 2s";
+  this.style.opacity = "1";
+}
