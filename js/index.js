@@ -29,6 +29,6 @@ for (let image of images) {
 
 
 function fadeImg () {
-  this.style.transition = "opacity 2s";
+  this.style.transition = "opacity 3s";
   this.style.opacity = "1";
 }
