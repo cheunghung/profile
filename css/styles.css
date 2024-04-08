@@ -274,3 +274,7 @@ hr {
   margin-bottom: 0;
 }
 
+
+@media only screen and (max-width: 768px){
+   background-size: 100% 100vh;
+}
