@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="utf-8">
-<!--   <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <title>Jackie Chan - a KYC specialist</title>
 
   <!-- CSS Stylesheets -->
@@ -15,7 +15,7 @@
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 
 
-  <!-- chatbot styling -->
+ <!-- chatbot styling -->
  <df-messenger minimized="top-left" expanded=false intent="WELCOME" chat-title="KYC Consultant" agent-id="4e993efe-8b44-4df2-8a34-ac9642f209ca" language-code="en" chat-icon="https://raw.githubusercontent.com/cheunghung/profile/main/images/robot.ico">
 </df-messenger>
 
@@ -129,16 +129,16 @@
     <img class="car" src="images/car.png" alt="car pic">
   </div>
 
-  <div class="dragon-container"> 
 
+  <div class="dragon-container"> 
   <br>
-  <br id="about">
+  <div class="inner-scroll" style= "height: 1000px; overflow-y: scroll; width: 98%;">
+  <!-- <br id="about"> -->
 
   <!-- About Me -->
 
-
   <div class="middle-container">
-    <div class="profile">
+    <div class="profile" id="about">
       <br>
       <img class="profile-pic" src="images/Jackie.png" alt="Jackie's profile pic">
       <h2>Hello, <span class="greeting"></span></h2>
@@ -155,9 +155,9 @@
 
     <!-- My Hobbies -->
 
-    <br id="hobbies">
+    <!-- <br id="hobbies"> -->
 
-    <div class="Hobbies">
+    <div class="Hobbies" id="hobbies">
       <h2>My Hobbies.</h2>
       <br>
       <div class="hobby-row ">
@@ -228,7 +228,7 @@
     </div>
   </div>
 
-
+</div>
   
 
   <!-- Footer -->
@@ -238,12 +238,15 @@
     <p class="p-foot">© Copyright <span class="year"></span> Jackie Chan</p>
   </div>
 
+  
 
   <script src="js/index.js" charset="utf-8"></script>
   <script src="js/snow.js" charset="utf-8"></script>
   <script src="js/scroll.js" charset="utf-8"></script>
 
-</div>
+<!-- </div> -->
+
+
 </body>
 
 
