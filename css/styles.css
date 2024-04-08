@@ -277,9 +277,9 @@ hr {
 /* Viewport < width 768px settings */
 /* compressing dragon for mobile */
 
-@media only screen and (max-width: 768px){
+/* @media only screen and (max-width: 768px){
 
   .dragon-container{
     background-size: 100% 100vh;
   }
-}
+} */
