@@ -274,18 +274,3 @@ hr {
   margin-bottom: 0;
 }
 
-/* Viewport < width 768px settings */
-/* compressing dragon for mobile */
-
-@media only screen and (max-width: 768px){
-
-  .dragon-container{
-    position: fixed;
-    background-image: url("https://github.com/cheunghung/profile/blob/main/images/dragon.gif?raw=true");
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-  }
-}
