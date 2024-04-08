@@ -15,11 +15,10 @@
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 
 
- <!-- chatbot styling -->
- <df-messenger minimized="top-left" expanded=false intent="WELCOME" chat-title="KYC Consultant" agent-id="4e993efe-8b44-4df2-8a34-ac9642f209ca" language-code="en">
+  <!-- chatbot styling -->
+ <df-messenger minimized="top-left" expanded=false intent="WELCOME" chat-title="KYC Consultant" agent-id="4e993efe-8b44-4df2-8a34-ac9642f209ca" language-code="en" chat-icon="https://raw.githubusercontent.com/cheunghung/profile/main/images/robot.ico">
 </df-messenger>
 
-  
 <style>
   df-messenger {
     --df-messenger-bot-message: #E4F9F5;
@@ -33,7 +32,8 @@
   }
 </style>
 
-  <!-- chatbot height/width -->
+
+<!-- chatbot height/width -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
     //To minimise the height of chatbox
@@ -44,12 +44,14 @@
         $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
         var sheet = new CSSStyleSheet;
         // manage box height from here
-        sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 450px; width: 320px }`);
+        sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 450px; width: 350px }`);
         $r2.shadowRoot.adoptedStyleSheets = [ sheet ];
         });
     });
 </script>
 
+  <!-- Favicon -->
+  <link rel="icon" href="https://raw.githubusercontent.com/cheunghung/profile/main/images/robot2.ico">
 
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"></script>
