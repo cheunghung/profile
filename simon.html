@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Simon Game</title>
+
+    <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/styles_simon.css">
+
+  <!-- Favicon -->
+  <link href="images/simon.ico" rel="icon" type="image/x-icon" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press Any Key to Start</h1>
+
+  <h2>Instructions:</h2>
+  <p>1) Press any key to start. </p>
+  <p>2) Click on the 1st color that you see blinked. If correct, you will level up & continue game. </p>
+  <p>3) Then a 2nd color will blink. </p>
+  <p>4) Click on the 1st & 2nd color that you see blinked. </p>
+  <p>5) Everytime a new color blinks, it will add on to a list of colors. </p>
+  <p>6) Click on the memorized colors in sequence. </p>
+
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/simon.js" charset="utf-8"></script>
+
+</body>
+
+</html>
