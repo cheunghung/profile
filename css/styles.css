@@ -451,7 +451,7 @@ h4{
   
   .car-container {
     background-image: url("https://github.com/cheunghung/profile/blob/main/images/car2.png?raw=true");
-    background-size: auto; 
+    background-size: cover; 
     background-position-x: center;
     background-position-y: center;
     background-repeat:no-repeat;
