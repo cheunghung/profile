@@ -254,5 +254,5 @@ window.addEventListener("load", function () {
       scrollSpy.refresh();
     });
 
-  }, 2000); // Adjust the delay time as needed
+  }, 3000); // Adjust the delay time as needed
 });
