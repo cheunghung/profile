@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener("contextmenu", function(e) {
   e.preventDefault();
-  alert('© Copyright 2024 Jackie Chan');
+  alert('© Copyright 2025 Jackie Chan');
 });
 
 
