@@ -61,23 +61,7 @@
   }
 </style>
 
-
-<!-- chatbot height/width -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-    //To minimise the height of chatbox
-    $(document).ready(function() {
-        window.addEventListener('dfMessengerLoaded', function (event) {
-        $r1 = document.querySelector("df-messenger");
-        $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
-        $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
-        var sheet = new CSSStyleSheet;
-        // manage box height from here
-        sheet.replaceSync( `div.chat-wrapper[opened="false"] { height: 5000px; width: 500px }`);
-        $r2.shadowRoot.adoptedStyleSheets = [ sheet ];
-        });
-    });
-</script>
 
 <div class="row justify-content-center">
   <nav class="navbar navbar-expand-lg col-2">
